@@ -1,0 +1,91 @@
+html, body, div, section, h1, h2, h3, p, ul, ol, li{
+	padding:0;
+	margin:0;
+}
+body{
+	background:black;
+}
+@font-face {
+  font-family: OpenSansLight;
+  src: url(OpenSans-Light.ttf);
+}
+nav {
+	padding-top:20px;
+	width:90%;
+	height:20px;
+	display:flex;
+	justify-content: space-between;
+	border-bottom: 1px solid white;
+}
+nav ul li{
+	display: inline;
+}
+
+a {
+	font-family: "Times New Roman";
+	text-decoration:none;
+	color:white;
+}
+
+h1{
+	font-family: "Times New Roman";
+	color:white;
+	font-size:100px;
+	border-bottom:2px solid white;
+}
+h2{
+	font-size:50px;
+	color:white;
+	font-family: OpenSansLight, "Times New Roman", sans-serif;
+}
+
+p{
+	color:white;
+	font-family: OpenSansLight, "Times New Roman", sans-serif;
+	font-size:25px;
+}
+
+#heading{
+	background-image: url(Images/green-vegetables-on-brown-wooden-chopping-board.jpg);
+	background-size:cover;
+	background-position:center;
+	background-attachment: fixed;
+	height:100vh;
+}
+#freshest{
+	text-align: center;
+}
+#freshest div{
+	text-align:center;
+}
+.parent{
+	display:flex;
+}
+.flexable-image{
+	background-position:center;
+	background-size:cover;
+	flex-basis:40%;
+	height:60vh;
+	display:inline-block;
+}
+.description{
+	display:inline;
+	padding:10vh;
+}
+#filter{
+	display:flex;
+	justify-content: center;
+	flex-wrap:wrap;
+	height:100vh;
+	width:100%;
+	background-color:rgba(0,0,0,0.1);
+}
+#bread{
+	background-image:url("Images/human-holding-a-bread.jpg");
+}
+#pineapple{
+	background-image:url("Images/green-pineapple-fruit-with-brown-framed-sunglasses.jpg");
+}
+#pasta{
+	background-image:url("Images/cooked-pasta-on-brown-wooden-bowl.jpg");
+}
